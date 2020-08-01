@@ -1,13 +1,13 @@
 export default {
     fonts: {
-        main: "lora, serif",
+        main: "crimson text",
         art: "amatic sc",
         sans: "muli, sans-serif",
     },
     colors: {
         art: "#02b45b",
         sophro: "#7551e1",
-        spectacle: "f25f5f",
+        spectacle: "#f25f5f",
         hover: "#a43740",
         domicile: "darkgoldenrod",
         main1: "hsl(207,70%,59%)",
@@ -16,7 +16,7 @@ export default {
         dark2: "hsl(227,2%,26%)",
         dark3: "hsl(227,2%,64%)",
         light1: "hsl(0,0%,97%)",
-        light2: "(0,0%,99%)",
+        light2: "hsl(0,0%,99%)",
     },
     breakpoints: {
         mobile: "only screen and (max-width: 50rem)",

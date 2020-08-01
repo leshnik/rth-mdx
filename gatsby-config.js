@@ -40,7 +40,8 @@ module.exports = {
               fonts: [
                 `amatic sc\:400,700`,
                 `muli\:400,400i,700,700i`,
-                `lora\:400,400i`
+                `lora\:400,400i`,
+                `Crimson text`
               ],
               display: "swap",
             },
