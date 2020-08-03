@@ -4,10 +4,7 @@ import { Container } from '../components'
 const IndexPage = () => {
   return (
     <Container>
-      <div>
-        <h1>Hello world!</h1>
-        <p>Everything must start somewhere.</p>
-      </div>
+        <h1>Hello world!</h1> 
     </Container>
   )
 }
