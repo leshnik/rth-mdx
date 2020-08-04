@@ -1,6 +1,6 @@
 import React from 'react'
 import { ContainerWrapper } from '../elements'
-import { Nav } from "../components"
+import { Nav, Footer } from "../components"
 //import SvgComponent from '../images/rthHero28july'
 
 export const Container = ({children}) => {
@@ -8,6 +8,7 @@ export const Container = ({children}) => {
         <ContainerWrapper>
             <Nav />
             {children}
+            <Footer />
         </ContainerWrapper>
     )
 }
