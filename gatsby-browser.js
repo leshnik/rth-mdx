@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
     body, html {
         font-family: ${props => props.theme.fonts.art};
         height: 100%;
-        background-color: ${props => props.theme.colors.dark2};
+        background-color: ${props => props.theme.colors.light2};
         color: ${props => props.theme.colors.spectacle}
     }
     p {
