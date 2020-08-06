@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterWrapper, FooterSocialWrapper, FooterSocialIcons } from '../elements'
+import { FooterWrapper, FooterSocialWrapper, FooterSocialIcons, P } from '../elements'
 import { useStaticQuery, graphql } from 'gatsby'
 
 export const Footer = () => {
@@ -41,7 +41,7 @@ export const Footer = () => {
                     <img src={data.diver.publicURL} alt="diver logo" />
                 </a>
             </FooterSocialIcons>
-            <p>© 2020 rêver tout haut. All rights reserved.</p>
+            <P size="xsmall" color="art">© 2020 rêver tout haut. All rights reserved.</P>
         </FooterSocialWrapper>
     </FooterWrapper>
 }
