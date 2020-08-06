@@ -77,6 +77,7 @@ export const H1 = Styled.h1`
 
 export const H2 = Styled.h2`
  font-size: 1.5rem;
+ font-family: ${props => props.theme.fonts.main};
  line-height: 1.875rem;
  color: ${props => {
     switch(props.color) {
