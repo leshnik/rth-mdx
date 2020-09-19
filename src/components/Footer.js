@@ -41,7 +41,7 @@ export const Footer = () => {
                     <img src={data.diver.publicURL} alt="diver logo" />
                 </a>
             </FooterSocialIcons>
-            <P size="xsmall" color="art">© 2020 rêver tout haut. All rights reserved.</P>
+            <P size="xs mall" color="art">© 2020 rêver tout haut. All rights reserved.</P>
         </FooterSocialWrapper>
     </FooterWrapper>
 }

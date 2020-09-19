@@ -35,20 +35,21 @@ module.exports = {
               maxWidth: 1200,
             },
           },
-          {
-            resolve: `gatsby-plugin-google-fonts`,
-            options: {
-              fonts: [
-                `amatic sc\:400,700`,
-                `muli\:400,400i,700,700i`,
-                `lora\:400,400i`,
-                `Crimson text`
-              ],
-              display: "swap",
-            },
-          },
+          
         ]
-      }
-    }
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `amatic sc\:400,700`,
+          `muli\:400,400i,700,700i`,
+          `lora\:400,400i`,
+          `Crimson text`
+        ],
+        display: "swap",
+      },
+    },
   ],
 }
